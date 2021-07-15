@@ -333,10 +333,10 @@ void web() {
 void loop() {
  web();
  measure();
- if (cm < 305){
+ if (cm < 300){
   digitalWrite (valve_1, HIGH);
  }
- if (cm > 300){
+ if (cm > 301){
    digitalWrite( valve_1, LOW);
  }
 }
