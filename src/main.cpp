@@ -336,7 +336,7 @@ void loop() {
  if (cm < 300){
   digitalWrite (valve_1, HIGH);
  }
- if (cm > 301){
+ if (cm > 302){
    digitalWrite( valve_1, LOW);
  }
 }
